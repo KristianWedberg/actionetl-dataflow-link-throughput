@@ -1,4 +1,4 @@
-﻿# actionETL Dataflow Throughput Benchmark
+# actionETL Dataflow Throughput Benchmark
 
 [**actionETL**](https://envobi.com) is a cross-platform ETL library for easily writing 
 high performance, highly productive 
@@ -22,18 +22,17 @@ for full details.
 
 1. Get an **actionETL** [free 30-day trial license](https://envobi.com/trial)
 2. Download this project and put the received license in the "actionetl.license.json" file
-3. Run the project
+3. In the project folder, build and run it:
    ```c#
-   cd actionETL.Demo.DataflowThroughput
    dotnet run --configuration Release
    ```
  
-> [!NOTE]
 > We create thousands of workers, so logging of `Info` messages has been disabled 
 > to focus on the benchmark results. You can change to default logging by changing 
-> `minlevel="Warn"` to `minlevel="Info"` in "nlog.config" for the file destination:
+> `minlevel="Warn"` to `minlevel="Info"` in "nlog.config" for the file destination
+> like this:
 > ```xml
-> <logger name="*" minlevel="Warn" writeTo="ToFile" />
+> <logger name="*" minlevel="Info" writeTo="ToFile" />
 > ```
 
 
