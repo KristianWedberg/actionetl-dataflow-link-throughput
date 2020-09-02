@@ -18,7 +18,8 @@ for full details.
 
 ## Install and Run Benchmark
 
-**actionETL** uses `dotnet new` templates and it's easy to install and run this benchmark:
+The **actionETL** library resides on _nuget.org_, making it easy to install and run this 
+benchmark:
 
 1. Get an **actionETL** [free 30-day trial license](https://envobi.com/trial)
 2. Download this project and put the received license in the "actionetl.license.json" file
@@ -26,8 +27,10 @@ for full details.
    ```c#
    dotnet run --configuration Release
    ```
+
+Why not report your results in the blog comments?
  
-> We create thousands of workers, so logging of `Info` messages has been disabled 
+> NOTE: We create thousands of workers, so logging of `Info` messages has been disabled 
 > to focus on the benchmark results. You can change to default logging by changing 
 > `minlevel="Warn"` to `minlevel="Info"` in "nlog.config" for the file destination
 > like this:
