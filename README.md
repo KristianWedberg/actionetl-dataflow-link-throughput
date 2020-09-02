@@ -28,7 +28,8 @@ benchmark:
    dotnet run --configuration Release
    ```
 
-Why not report your results in the blog comments?
+It takes about a minute to run with 4 cores, and will run at 100% CPU utilization during 
+that time. Why not report your results in the blog comments?
  
 > NOTE: We create thousands of workers, so logging of `Info` messages has been disabled 
 > to focus on the benchmark results. You can change to default logging by changing 
