@@ -1,0 +1,5 @@
+﻿{
+  "configurations": [
+    { "InputPort.BufferCapacity": 1024 }
+  ]
+}
