@@ -5,6 +5,9 @@ high performance, highly productive
 [ETL (Extract, Transform, Load)](https://en.wikipedia.org/wiki/Extract,_transform,_load) 
 data processing applications in C#, VB etc. running on Windows and Linux.
 
+It has a [free Community edition](https://envobi.com/community-edition) as well as 
+[commercial editions](https://envobi.com/pricing).
+
 This benchmark measures the aggregate link throughput when pumping rows across 1 to 1024
 **actionETL** [dataflow links](https://envobi.com/dataflow), up to **340 million rows/s** 
 on an old 4-core PC:
